@@ -1,0 +1,57 @@
+.card-title{
+    font-size:14px;
+    margin-top:10px;
+    padding:0px;
+    text-align: center;
+}
+.card .card-title {
+    color:white;
+    font-weight: bold;
+    font: 20px Arial,sans-serif;
+}
+.card .card-content {
+    padding: 5px;
+    border-radius: 0 0 2px 2px;
+}
+
+.responsive-img{
+    height:300px;
+}
+
+.row .col.m4 .card{
+    padding:5px;
+    background-color:rgb(84, 110, 122);
+}
+
+.fa-star{
+    color:yellow;
+}
+.rating{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+.fullrating{
+    color:white;
+    font-size:15px;
+
+}
+
+
+.card[_ngcontent-c2] .card-content[_ngcontent-c2] {
+    height:70px;
+}
+
+.results{
+    color: white;
+    margin-bottom: 0px;
+    padding:0px;
+    font-size:20px;
+}
+
+.errorMessage{
+    color:red;
+    font-size:18;
+}

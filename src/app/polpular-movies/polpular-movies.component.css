@@ -1,0 +1,75 @@
+h4{
+    color:white;
+}
+h6{
+    font-weight:bold;
+}
+p{
+    font-size:12px;
+}
+
+.responsive-img{
+    height:300px;
+}
+
+.card-image{
+    cursor:pointer;
+
+}
+.card-image:hover{
+opacity: 0.4;
+
+}
+
+.fa-star{
+    color:yellow;
+}
+.rating{
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+.fullrating{
+    color:black;
+    font-size:15px;
+
+
+}
+
+.votes{
+    font-size:12px;
+
+}
+.card.horizontal .card-stacked .card-content {
+    width: 200px;
+    height: 230px;
+}
+
+.btn.button{
+    font-size:10px;
+    padding-top:0px;
+    padding:3px;
+}
+
+.tab:hover{
+cursor: pointer;
+background-color:pink;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: pink;
+    color: deeppink;
+}
+
+.selected{
+    background-color: pink;
+    color: deeppink;
+}
+
+.card.horizontal{
+    cursor:pointer;
+}
+
+

@@ -1,0 +1,35 @@
+<div class="container">
+    <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+        <li class="tab"><a (click)="getPopularMovies()" >Popular Movies</a></li>        
+        <li class="tab"><a  (click)="getTopMovies()" >Top Rated Movies</a></li>
+        <li class="tab "><a (click)="getUpcomingMovies()">Upcoming Movies</a></li>
+        <li class="tab"><a (click)="getPlayingMovies()">Now Playing Movies</a></li>        
+      </ul>
+</div>
+
+<div class="container">
+    <h4>{{slectionView}}</h4>
+  <div class="row">
+      <div *ngFor="let movie of movies" class="col s6 m6">
+          
+          <div routerLink="/movie/{{movie.id}}" class="card horizontal">
+            <div  class="card-image">
+              <img class="responsive-img" src="http://image.tmdb.org/t/p/w185{{movie.poster_path}}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                  <h6 class="header">{{movie.title}}({{movie.release_date.substring(0, 4)}})</h6>
+                <p>{{movie.overview.substring(0,170)}}...</p>
+              </div>
+              <div class="card-action">
+                  <i class="fa fa-star fa-2x"></i>
+                  <span class="rating">{{movie.vote_average}}</span>
+                  <span class="fullrating">/10</span>
+                  <span class="votes">({{movie.vote_count}})</span>
+                  </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
